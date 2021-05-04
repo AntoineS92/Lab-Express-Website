@@ -1,0 +1,36 @@
+<h1>Les abres fruitiers</h1>
+
+{{#unless trees.length}}
+there is no data to display ...
+{{/unless}}
+
+<div id="all-trees">
+    {{#each trees}}
+
+    <div class="tree-card">
+        <h2 class="treeName">{{this.name}}</h2>
+        <h3 class="latinName">{{this.latinName}}</h3>
+
+        <article>
+            <div>
+                <img src="" alt="an image of the tree">
+                <p>Insert here information about the tree.</p>
+            </div>
+            <table class="tree-info">
+                <tr>
+                    <td>production</td>
+                    <td>zoneUSDA</td>
+                    <td>pollination</td>
+                    <td>use</td>
+                </tr>
+                <tr>
+                    <td>{{this.production}}</td>
+                    <td>{{this.zoneUSDA}}</td>
+                    <td>{{this.pollination}}</td>
+                    <td>{{this.use}}</td>
+                </tr>
+            </table>
+        </article>
+    </div>
+    {{/each}}
+</div>

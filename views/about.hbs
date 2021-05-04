@@ -1,0 +1,17 @@
+<h1>About me !</h1>
+
+<article>
+    <h2 class="name-title">Hi everyone, my name is {{this.name}} !</h2>
+    <p class="info-text">I am building this website as an exercise to get experience using JSON Views etc.</p>
+    <h3 class="info-title">Here are a few info about me : </h3>
+    <ul class="info-list">
+        <li>my age : {{this.age}}</li>
+        <li>
+            <ol class="hobbies-list">My hobbies : {{#each this.hobbies}}
+                <li>{{this}}</li>
+                {{/each}}
+            </ol>
+        </li>
+        <li>I live in {{this.city}}</li>
+    </ul>
+</article>

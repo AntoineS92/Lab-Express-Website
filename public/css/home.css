@@ -1,0 +1,26 @@
+.tree-card {
+    margin : 25px 25px 25px 25px;
+    padding: 10px;
+    border: 2px solid;
+    box-shadow: 10px 5px 5px #1BA217;
+    border-radius: 25px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.tree-info {
+    border: 2px solid;
+    border-collapse: collapse;
+}
+
+tr{
+    border: 2px solid;
+}
+
+td {
+    border: 2px solid;
+    width : 100px;
+    height: 33px;
+}
