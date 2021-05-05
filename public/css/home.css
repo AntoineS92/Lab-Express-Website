@@ -2,8 +2,11 @@
     margin : 25px 25px 25px 25px;
     padding: 10px;
     border: 2px solid;
-    box-shadow: 10px 5px 5px #1BA217;
     border-radius: 25px;
+}
+
+.tree-card:hover {
+    box-shadow: 10px 5px 5px #1BA217;
 }
 
 h1 {
